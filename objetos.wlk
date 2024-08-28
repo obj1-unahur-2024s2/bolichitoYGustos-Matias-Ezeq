@@ -13,20 +13,17 @@ object objeto {
   var peso = 0
   var material = "aire"
   
-  method setColor(color){
-    self.color = color
+  method setColor(colornuevo){
+    color = colornuevo
   }
 
-  method setPeso(peso){
-    self.peso = peso
+  method setPeso(gramos){
+    peso = gramos
   }
 
-  methos setMaterial(material){
-    self.material = material
+  method setMaterial(materialnuevo){
+    material = materialnuevo
   }
-
-  //averiguar sintaxis de condicional en wollok
-  method esBrillante(){}
 
   method getColor() = color
 
